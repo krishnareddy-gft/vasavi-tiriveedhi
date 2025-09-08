@@ -16,12 +16,12 @@ const Footer = () => {
     { name: 'Ai Next-Gen Farming', description: 'Advanced Agricultural AI' }
   ];
 
-  const socialLinks = [
-    { name: 'LinkedIn', icon: '💼', href: 'https://linkedin.com/in/vasavi-tiriveedhi' },
-    { name: 'Twitter', icon: '🐦', href: 'https://twitter.com/vasavi_tiriveedhi' },
-    { name: 'GitHub', icon: '🐙', href: 'https://github.com/vasavi-tiriveedhi' },
-    { name: 'Email', icon: '📧', href: 'mailto:vasavi.tiriveedhi@gftglobal.com.au' }
-  ];
+  // const socialLinks = [
+  //   { name: 'LinkedIn', icon: '💼', href: 'https://linkedin.com/in/vasavi-tiriveedhi' },
+  //   { name: 'Twitter', icon: '🐦', href: 'https://twitter.com/vasavi_tiriveedhi' },
+  //   { name: 'GitHub', icon: '🐙', href: 'https://github.com/vasavi-tiriveedhi' },
+  //   { name: 'Email', icon: '📧', href: 'mailto:vasavi.tiriveedhi@gftglobal.com.au' }
+  // ];
 
   const scrollToSection = (href) => {
     const element = document.querySelector(href);
