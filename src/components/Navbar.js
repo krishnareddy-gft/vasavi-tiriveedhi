@@ -40,7 +40,7 @@ const Navbar = () => {
             <div className="flex items-center space-x-3">
               {/* VT Icon */}
               <div className="relative group">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden">
+                <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 relative overflow-hidden">
                   {/* Background Pattern */}
                   <div className="absolute inset-0 opacity-20">
                     <div className="absolute top-1 left-1 w-1 h-1 bg-white rounded-full"></div>
@@ -53,14 +53,14 @@ const Navbar = () => {
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
                   
                   {/* VT Text */}
-                  <span className="text-white font-bold text-lg tracking-tight relative z-10">VT</span>
+                  <span className="text-white font-bold text-sm tracking-tight relative z-10">VT</span>
                 </div>
                 
                 {/* Glow Effect */}
-                <div className="absolute -inset-1 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-xl opacity-0 group-hover:opacity-30 transition-opacity duration-300 -z-10 blur-sm"></div>
+                <div className="absolute -inset-1 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg opacity-0 group-hover:opacity-30 transition-opacity duration-300 -z-10 blur-sm"></div>
               </div>
               {/* Brand Name */}
-              <h1 className="text-2xl font-bold text-white font-display">
+              <h1 className="text-lg font-bold text-white font-display">
                 Vasavi Tiriveedhi
               </h1>
             </div>
